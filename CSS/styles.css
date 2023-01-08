@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@200;400;600&display=swap');
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  :root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+  }
+
+  body {
+    background-color: var(--Violet);
+    
+  }
+
+
+
+
+
+
+                                                                /* Class Selectors */
+  
+
+  
+                                                                
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+     }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+                                                                /* media query */
+
+@media only screen and (min-width: 625px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+}                                                                
+                                
+@media only screen and (max-width:600px) and (min-width: 200px) {
+    body {
+        background-image: url(/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 425px;
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 125px;
+        margin: 30px 0 0 30px;
+    }
+    
+    figure {
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .content p {
+        text-align: center;
+        width: 74%;
+        margin: 0 auto;
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+    }
+
+    button {
+        background-color: hsl(0, 0%, 100%);
+        margin: 20px auto 0 auto;
+        min-width: 230px;
+        padding: 9px;
+        border-radius: 20px;
+        color: var(--Violet);
+        box-shadow: 1px 1px 1px 3px ;
+        border: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .media {
+        display: flex;
+        gap: 15px;
+    }
+
+    .fa-brands {
+        border: solid 1px hsl(0, 0%, 100%);
+        border-radius: 50%;
+        color: hsl(0, 0%, 100%);
+        padding: 12px;
+
+    }
+
+    .attribution {
+        position: fixed;
+        bottom: 0;
+    }
+}
