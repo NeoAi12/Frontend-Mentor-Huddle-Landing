@@ -71,34 +71,34 @@
   }
 
   .logo {
-    width: 150px;
-    margin: 50px 0 0 145px;
+    max-width: 250px;
+    margin: 3.125rem 0 0 400px;
   }
 
   .container {
     width: 80%;
     display: flex;
     justify-content: center;
-    gap: 100px;
-    margin: 105px auto;
+    gap: 6.25rem;
+    margin: 6.5625rem auto;
     color: hsl(0, 0%, 100%);
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
   
   .container p {
     max-width: 400px;
     font-size: 1rem;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   
   button {
     background-color: hsl(0, 0%, 100%);
-    margin: 40px auto 0 auto;
+    margin: 2.5rem auto 0 auto;
     min-width: 230px;
-    padding: 9px;
-    border-radius: 40px;
+    padding: 0.5625rem;
+    border-radius: 2.5rem;
     color: var(--Violet);
     box-shadow: 13px 1px 3px 10px var(--Violet);
     border: none;
@@ -109,15 +109,15 @@
 .media {
   display: flex;
   justify-content: flex-end;
-  margin: 0 75px;
-  gap: 20px;
+  margin: 0 4.6785rem;
+  gap: 1.25rem;
 }
 
 .fa-brands {
-  font-size: 20px;
+  font-size: 1.25rem;
   border: 1px solid hsl(0, 0%, 100%);
   border-radius: 50%;
-  padding: 10px;
+  padding: 0.625rem;
   color: hsl(0, 0%, 100%);
 }
 
@@ -128,26 +128,26 @@
         background-image: url(/images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-position: top right;
-        background-size: 425px;
+        background-size: 28.25rem;
         font-size: 1rem;
         height: fit-content;
     }
 
     .logo {
-        width: 125px;
-        margin: 30px 0 0 30px;
+        width: 7.8125rem;
+        margin: 1.875rem 0 0 1.875rem;
     }
     
     figure {
         width: 80%;
-        margin: 50px auto;
+        margin: 3.125rem auto;
     }
     
     .content {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
     }
 
     h2 {
@@ -155,7 +155,7 @@
         color: hsl(0, 0%, 100%);
         margin-bottom: 20px;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-family: 'Poppins', sans-serif;
     }
 
@@ -166,15 +166,15 @@
         color: hsl(0, 0%, 100%);
         font-weight: 400;
         font-family: 'Open Sans', sans-serif;
-        font-size: 17px;
+        font-size: 1.0625rem;
     }
 
     button {
         background-color: hsl(0, 0%, 100%);
-        margin: 20px auto 0 auto;
+        margin: 1.25rem auto 0 auto;
         min-width: 230px;
         padding: 9px;
-        border-radius: 20px;
+        border-radius: 1.25rem;
         color: var(--Violet);
         box-shadow: 13px 1px 3px 10px var(--Violet);
         border: none;
@@ -194,7 +194,7 @@
         border: solid 1px hsl(0, 0%, 100%);
         border-radius: 50%;
         color: hsl(0, 0%, 100%);
-        padding: 12px;
+        padding: 0.75rem;
 
     }
 
